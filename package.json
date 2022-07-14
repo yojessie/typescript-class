@@ -1,0 +1,20 @@
+{
+  "name": "typescript-class",
+  "version": "1.0.0",
+  "description": "Study note for Nomad coder's Typescript lecture 🔥",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://yojessie@github.com/yojessie/typescript-class.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yojessie/typescript-class/issues"
+  },
+  "homepage": "https://github.com/yojessie/typescript-class#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
