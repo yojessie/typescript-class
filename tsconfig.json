@@ -1,4 +1,11 @@
 {
-  "include": ["src"]
+  "include": ["src"],
   // 타입스크립트가 src 폴더의 모든 파일을 확인한다는 것을 의미
+
+  "compilerOptions": {
+    "outDir": "build",
+    // 자바스크립트 파일이 컴파일 될 디렉토리를 설정
+    "target": "ES6"
+    // 컴파일되는 자바스크립트의 버전을 설정
+  }
 }
