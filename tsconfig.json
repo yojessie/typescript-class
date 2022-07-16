@@ -7,8 +7,13 @@
     // 자바스크립트 파일이 컴파일 될 디렉토리를 설정
     "target": "ES6",
     // 컴파일되는 자바스크립트의 버전을 설정
-    "lib": ["es6", "DOM"]
+    "lib": ["es6", "DOM"],
     // 어떤 API를 사용하고 어떤 환경에서 코드를 실행할 것인지 설정
     // 브라우저에서 실행되는 프로그램이라면, DOM 유형을 정의해서 코드 작성 시 자동완성 기능을 활용할 수 있다.
+    // TS는 declaration file을 가지고 있기 때문에 auto complete 기능을 사용할 수 있다.
+    // declaration file은 node-module에 정의되어 있다. (.d.ts file)
+    // 이것을 실제로 사용할 일은 거의 없지만, TS가 어떻게 localstorage등의 타입을 알고있는지 이해하기 위해 필요한 내용이다.
+    "strict": true
+    // strict 모드를 활성화시키면 모든 실수로부터 코드를 보호한다.
   }
 }
