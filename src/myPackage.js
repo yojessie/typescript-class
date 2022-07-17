@@ -5,11 +5,11 @@
  * Describe about this function
  * @param {object} config
  * @param {string} config.url
- * @returns boolean
+ * @returns string
  */
 
 export function init(config) {
-  return true;
+  console.log(config.url);
 }
 
 /**
@@ -19,5 +19,5 @@ export function init(config) {
  */
 
 export function exit(code) {
-  return code + 1;
+  console.log(code + 1);
 }
