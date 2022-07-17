@@ -13,7 +13,9 @@
     // TS는 declaration file을 가지고 있기 때문에 auto complete 기능을 사용할 수 있다.
     // declaration file은 node-module에 정의되어 있다. (.d.ts file)
     // 이것을 실제로 사용할 일은 거의 없지만, TS가 어떻게 localstorage등의 타입을 알고있는지 이해하기 위해 필요한 내용이다.
-    "strict": true
+    "strict": true,
     // strict 모드를 활성화시키면 모든 실수로부터 코드를 보호한다.
+    "allowJs": true
+    // 타입을 정의한 JS파일을 직접 임포트 해와서 사용하기 위한 설정
   }
 }
