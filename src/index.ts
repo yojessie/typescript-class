@@ -8,10 +8,13 @@
 // 규모가 큰 프로젝트의 경우, 일부 JS파일에서 TS를 활용하도록 하기 위함.
 // tsconfig.json에 allowJS: true 설정 필요 (이 설정만으로 기본적으로 타입을 추론할 수 있다.)
 
-import { init, exit } from "./myPackage";
+// import { init, exit } from "./myPackage";
 
-init({
-  url: "text",
-});
+// init({
+//   url: "text",
+// });
 
-exit(1);
+// exit(1);
+
+// THis is BLOCK CHAIN PROJECT form here
+console.log("bye");
